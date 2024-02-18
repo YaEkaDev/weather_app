@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="card_blue">#663D90D5</color>
+    <color name="item">#D9362A84</color>
+    <color name="item_border">#735936B4</color>
+    <color name="bottom_sheet">#BF362A84</color>
+    <color name="dark_secondary">#EBEBF5</color>
+    <color name="white_40">#66ffffff</color>
+    <color name="back_bottom_sheet">#FA362A84</color>
+    <color name="back_bottom_sheet2">#E65936B4</color>
+</resources>
