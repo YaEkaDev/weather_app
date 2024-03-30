@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WeatherAPI</string>
+    <string name="app_name">WeatherAPP</string>
     <string name="hello_blank_fragment">First Frag</string>
     <string name="temp_template">%s°</string>
     <string name="max_min_template">%s° / %s°</string>
