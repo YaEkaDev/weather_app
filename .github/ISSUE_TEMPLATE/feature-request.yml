@@ -1,0 +1,61 @@
+name: 📌 Заявка от заказчика
+description: Заполните форму для запроса фичи, исправления или нового экрана
+title: "[Заявка] "
+labels: ["заказчик"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Тип запроса
+      options:
+        - Баг
+        - Фича
+        - Новый экран
+        - Улучшение
+        - Другое
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Срочность
+      options:
+        - 🔥 Критично (блокирует работу)
+        - ⚠️ Высокая
+        - 🕐 Средняя
+        - 💤 Низкая
+    validations:
+      required: true
+
+  - type: input
+    id: screen
+    attributes:
+      label: Какой экран?
+      placeholder: Например, "Экран записи к врачу"
+    validations:
+      required: false
+
+  - type: input
+    id: component
+    attributes:
+      label: Какой компонент?
+      placeholder: Например, "Кнопка подтверждения"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание
+      description: Подробно опишите, что нужно реализовать или что не работает
+    validations:
+      required: true
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Скриншоты и файлы
+      description: Вставьте сюда скриншоты или добавьте файлы к заявке
+    validations:
+      required: false
